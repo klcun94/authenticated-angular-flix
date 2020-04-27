@@ -6,11 +6,8 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./hero-button.component.css']
 })
 export class HeroButtonComponent implements OnInit {
-  @Input() text
-  primary
+  @Input() text;
+  primary;
   constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() { }
 }

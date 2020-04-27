@@ -7,13 +7,9 @@ import { MovieService } from '../movie.service';
   styleUrls: ['./search-box.component.css']
 })
 export class SearchBoxComponent implements OnInit {
-
   constructor(private movieService : MovieService) { }
-
-  ngOnInit() {
-  }
-  loadSearch(e){
+  ngOnInit() { }
+  loadSearch(e) {
     this.movieService.searchForMovies(e.target.value);
   }
-
 }

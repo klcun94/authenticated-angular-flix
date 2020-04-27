@@ -6,11 +6,9 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./title-list.component.css']
 })
 export class TitleListComponent implements OnInit {
-
   constructor() { }
   @Input() movies;
   @Input() title;
   ngOnInit() {
   }
-
 }
